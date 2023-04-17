@@ -25,6 +25,7 @@ function ProfilesList() {
     <React.Fragment>
       <div class="box">
       <hr/>
+      <h3>Lorem ipsum</h3>
       {mainProfilesList.map((profile, index) =>
         <Profile name={profile.name}
           profilePicture

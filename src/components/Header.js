@@ -26,11 +26,9 @@ function HeaderButton4() {
 
 function SearchBar() {
   return (
-    <div class="SearchBar">
     <form>
-      <input type="text" placeholder="Search..." />
+      <input class="SearchBar" type="text" placeholder="Search..." />
     </form>
-    </div>
   );
 }
 
@@ -40,8 +38,9 @@ export default function Header() {
       <HeaderButton1 />
       <HeaderButton2 />
       <HeaderButton3 />
-      <SearchBar />
       <HeaderButton4 />
+      <SearchBar />
+      <hr class = "SeparationLine" />
     </div>
 
   );
