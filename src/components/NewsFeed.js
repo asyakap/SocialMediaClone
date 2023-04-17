@@ -46,17 +46,17 @@ function WhatsHappening() {
 function NewsFeed() {
   return (
     <React.Fragment>
-      <div class="container">
-      <div class="newsFeed">
+      {/* <div class="container">
+      <div class="newsFeed"> */}
       <WhatsHappening />
       <hr />
-      <p1>{newsFeedList.map((post, index) =>
+      {newsFeedList.map((post, index) =>
         <Post postName={post.postName}
           postText={post.postText}
           key={index} />
-      )}</p1>
-      </div>
-      </div>
+      )}
+      {/* </div>
+      </div> */}
     </React.Fragment>
   );
 }

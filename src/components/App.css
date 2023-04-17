@@ -1,18 +1,9 @@
 /* any styles we just want to apply to App.js should go into App.css. */
 /* If your application will have any global style rules, put them in index.css. */
 
-.App {
-  text-align: center;
-  width: 50vw;
-  margin: auto;
-  padding-top: 0;
-  margin-top: 0;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -21,11 +12,73 @@
 }
 
 .App-header {
-padding-left: 25%;
-padding-right: 25%;
+padding-left: 20%;
+padding-right: 20%;
 padding-top: 50px;
-padding-bottom: 20px;
+padding-bottom: 50px;
 font-size: 18px;
+}
+
+/* Header */
+.box1 {
+  background-color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-left: 225px;
+  padding: 50px;
+  border-bottom: grey 2px solid;
+  width: 70%;
+  
+}
+
+/* UserProfile */
+.box2 {
+  float: left;
+  background-color: white;
+  width: 10%;
+  border-color: solid grey;
+  border-width: 2px;
+  /* margin-left: 10px; */
+  padding: 10px;
+  margin-left: 15%;
+}
+
+/* NewsFeed */
+.box4 {
+  float: left;
+  margin: 30px;
+  padding: 20px;
+  border: grey 2px solid;
+  background-color: white;
+  width: 25%;
+  padding-bottom: 44px;
+  margin-left: 4%;
+}
+
+/* ProfilesList */
+.box3 {
+  float: left;
+  background-color: white;
+  width: 10%;
+  margin: 30px;
+  padding: 20px;
+  border: grey 2px solid;
+  position: relative;
+  margin-left: -1%;
+}
+
+/* AboutMe */
+.box5 {
+  font-size: 1.25em;
+  float: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border: grey 2px solid;
 }
 
 .NavButton {
@@ -69,12 +122,6 @@ font-size: 18px;
   float: right;
 }
 
-.SeparationLine { 
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-top: 50px;
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -98,58 +145,6 @@ font-size: 18px;
   padding: 16px;
   height: 250px;
   margin: 5px;
-}
-
-.box1 {
-  float: left;
-  text-align: left;
-  border: black ridge 1px;
-  border-radius: 10px;
-  margin: 3px;
-  width: 20rem;
-  padding-left: 10px;
-
-}
-
-.box2 {
-  float: center;
-  text-align: left;
-  border: black ridge 1px;
-  border-radius: 10px;
-  margin: 3px;
-  width: 20rem;
-  padding-left: 10px;
-}
-
-.newsFeed {
-  background-color: white;
-  padding: 35%;
-  margin:auto;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 12px;
-  color: black;
-}
-
-.profilesList {
-  width: 300px;
-  float: right;
-  margin-left: auto;
-}
-
-.userProfile {
-  width: 300px;
-  float: left;
-  margin: auto;
-}
-
-.aboutMe {
-  width: 300px;
-  float: left;
-  margin: auto;
 }
 
 p1:before {

@@ -1,6 +1,7 @@
 import React from "react";
 import Profile from "./Profile";
-import profilePicture from "./profile.jpg" 
+import profilePicture from "./profile.jpg"
+// import { Box, Flex } from "@chakra-ui/react"
 
 const mainProfilesList = [
   {
@@ -23,29 +24,12 @@ const mainProfilesList = [
 function ProfilesList() {
   return (
     <React.Fragment>
-      {/* <div class="container"> */}
-      <div class="profilesList">
-      <hr/>
       {mainProfilesList.map((profile, index) =>
         <Profile name={profile.name}
           profilePicture
           profileLink={profile.profileLink}
-          key={index}
-          style={{
-            default: {
-              fill: "#EEE",
-            },
-            hover: {
-              fill: "#F53",
-            },
-            pressed: {
-              fill: "#E42",
-            },
-          }}
-          />
+          key={index}/>
       )}
-      </div>
-      {/* </div> */}
     </React.Fragment>
   );
 }
