@@ -14,14 +14,59 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+padding-left: 25%;
+padding-right: 25%;
+padding-top: 50px;
+padding-bottom: 20px;
+font-size: 30px;
+}
+
+.NavButton {
+  background-color:white;
+  border: solid;
+  border-color: rgb(199, 198, 198);
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  float: left;
+}
+
+.SearchBar {
+  background-color:white;
+  border-radius: 30px;
+  border: solid;
+  border-color: lightskyblue;
+  padding: 15px 25px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  float: right;
+  margin-right: 20px;
+}
+
+.TweetButton {
+  background-color:white;
+  border-radius: 30px;
+  border: solid;
+  border-color: lightskyblue;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  float: right;
+}
+
+.SeparationLine { 
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 50px;
 }
 
 .App-link {
@@ -35,4 +80,56 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.box1 {
+  float: left;
+  text-align: left;
+  border: black ridge 1px;
+  border-radius: 10px;
+  margin: 3px;
+  width: 20rem;
+  padding-left: 10px;
+
+}
+
+.box2 {
+  float: center;
+  text-align: left;
+  border: black ridge 1px;
+  border-radius: 10px;
+  margin: 3px;
+  width: 20rem;
+  padding-left: 10px;
+}
+
+.newsFeed {
+  background-color: white;
+  padding: 35%;
+  margin:auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: black;
+}
+
+.profilesList {
+  width: 300px;
+  float: right;
+  margin-left: auto;
+}
+
+.userProfile {
+  width: 300px;
+  float: left;
+  margin: auto;
+}
+
+.aboutMe {
+  width: 300px;
+  float: left;
+  margin: auto;
 }

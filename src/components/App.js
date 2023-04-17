@@ -13,7 +13,7 @@ function App() {
       <Header />
       <UserProfile />
       <AboutMe />
-      <NewsFeed />
+      <NewsFeed /> 
       <ProfilesList />
     </React.Fragment>
 
