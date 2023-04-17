@@ -40,7 +40,7 @@ export default function Header() {
       <HeaderButton3 />
       <HeaderButton4 />
       <SearchBar />
-      <hr class = "SeparationLine" />
+      <hr class="SeparationLine" />
     </div>
 
   );
