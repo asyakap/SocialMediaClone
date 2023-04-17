@@ -18,3 +18,5 @@ Profile.propTypes = {
 }
 
 export default Profile;
+
+// for future reference: picture might be a string (path) or Object, use console.log to check around for it and React might let you know, and prop types aren't required so Eliot, don't get hung up

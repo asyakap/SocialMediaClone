@@ -1,4 +1,5 @@
 import React from "react";
+// import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 
 
 function HeaderButton1() {
@@ -40,8 +41,8 @@ export default function Header() {
       <HeaderButton3 />
       <HeaderButton4 />
       <SearchBar />
-      <hr class = "SeparationLine" />
     </div>
+    
 
   );
 }

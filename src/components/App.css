@@ -1,11 +1,9 @@
-.App {
-  text-align: center;
-}
+/* any styles we just want to apply to App.js should go into App.css. */
+/* If your application will have any global style rules, put them in index.css. */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,11 +12,73 @@
 }
 
 .App-header {
-padding-left: 25%;
-padding-right: 25%;
+padding-left: 20%;
+padding-right: 20%;
 padding-top: 50px;
-padding-bottom: 20px;
-font-size: 30px;
+padding-bottom: 50px;
+font-size: 18px;
+}
+
+/* Header */
+.box1 {
+  background-color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-left: 225px;
+  padding: 50px;
+  border-bottom: grey 2px solid;
+  width: 70%;
+  
+}
+
+/* UserProfile */
+.box2 {
+  float: left;
+  background-color: white;
+  width: 10%;
+  border-color: solid grey;
+  border-width: 2px;
+  /* margin-left: 10px; */
+  padding: 10px;
+  margin-left: 15%;
+}
+
+/* NewsFeed */
+.box4 {
+  float: left;
+  margin: 30px;
+  padding: 20px;
+  border: grey 2px solid;
+  background-color: white;
+  width: 25%;
+  padding-bottom: 44px;
+  margin-left: 4%;
+}
+
+/* ProfilesList */
+.box3 {
+  float: left;
+  background-color: white;
+  width: 10%;
+  margin: 30px;
+  padding: 20px;
+  border: grey 2px solid;
+  position: relative;
+  margin-left: -1%;
+}
+
+/* AboutMe */
+.box5 {
+  font-size: 1.25em;
+  float: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border: grey 2px solid;
 }
 
 .NavButton {
@@ -28,7 +88,7 @@ font-size: 30px;
   padding: 15px 15px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 20px;
   color: black;
   float: left;
@@ -42,7 +102,6 @@ font-size: 30px;
   padding: 15px 25px;
   text-align: left;
   text-decoration: none;
-  display: inline-block;
   font-size: 20px;
   color: black;
   float: right;
@@ -57,16 +116,10 @@ font-size: 30px;
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 20px;
   color: black;
   float: right;
-}
-
-.SeparationLine { 
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-top: 50px;
 }
 
 .App-link {
@@ -82,29 +135,36 @@ font-size: 30px;
   }
 }
 
-.box1 {
-  float: left;
-  text-align: left;
-  border: black ridge 1px;
-  border-radius: 10px;
-  margin: 3px;
-  width: 20rem;
-  padding-left: 10px;
-
+.container {
+  display: grid;
+  grid-template-columns: 100px 150px 200px;
+  text-align: center;
 }
 
-.box2 {
-  float: center;
-  text-align: left;
-  border: black ridge 1px;
-  border-radius: 10px;
-  margin: 3px;
-  width: 20rem;
-  padding-left: 10px;
+.column {
+  padding: 16px;
+  height: 250px;
+  margin: 5px;
 }
 
-.userProfile {
-  margin: 40px;
-  border: 5px black;
-  float: left;
+p1:before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+
+p1:after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  right: 0;
+  top: 50%;
+  position: absolute;
 }
