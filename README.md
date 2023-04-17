@@ -89,9 +89,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Known Bugs
 
-* _Any known issues_
+* _No known issues_
 
-* _Please reach out with any questions or concerns [eliot.lauren@gmail.com](eliot.lauren@gmail.com), [a.kaplanyan@gmail.com](a.kaplanyan@gmail.com)
+* _Additional React components and functionality can be added as we increase our knowledge base on the React library_
+
+* Please reach out with any questions or concerns [eliot.lauren@gmail.com](eliot.lauren@gmail.com), [a.kaplanyan@gmail.com](a.kaplanyan@gmail.com)
 
 ## License
 
