@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Social Media Clone
+
+# By Asia Kaplanyan and Eliot Gronstal 4.17.23
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 This a copy of a Social Media webpage.
