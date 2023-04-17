@@ -1,13 +1,29 @@
 # Social Media Clone
 
-# By Asia Kaplanyan and Eliot Gronstal 4.17.23
+#### By Asia Kaplanyan and Eliot Gronstal 4.17.23
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-This a copy of a Social Media webpage.
+#### _A site that looks like a mock-up of a social media page using only React components. Made for Epicodus Coding School Week 16: React Fundamentals. This is not a portfolio quality project and should not be considered portfolio-ready._
+
+## Technologies Used
+
+* _React_
+* _JSX_
+* _HTML/CSS_
+* _JavaScript_
+* _Node_
 
 # Component Diagram
 
 ![component diagram](diagram.jpg)
+
+### Setup/Installation Requirements:
+
+* First, copy the git repository url and open a shell program & navigate to your machine's desktop
+* Clone the repository using the copied URL and the `git clone` command
+* In the shell program, navigate to the root directory of the newly created file called "SocialMediaClone-1"
+* Run the `npm install` command to install dependencies
+* After the installation updates, in the root directory type `npm run start` to start the program
+* If the web page doesn't open on its own, open a web browser (such as Google Chrome) and enter the following into the URL: `http://localhost:3000/`
 
 ## Available Scripts
 
@@ -70,3 +86,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Known Bugs
+
+* _Any known issues_
+
+* _Please reach out with any questions or concerns [eliot.lauren@gmail.com](eliot.lauren@gmail.com), [a.kaplanyan@gmail.com](a.kaplanyan@gmail.com)
+
+## License
+
+_[MIT](https://opensource.org/license/mit/)_
+
+Copyright (c) 2023 _Eliot Gronstal & Asia Kaplanyan_
