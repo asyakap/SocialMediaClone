@@ -23,6 +23,7 @@ const mainProfilesList = [
 function ProfilesList() {
   return (
     <React.Fragment>
+      <div class="box">
       <hr/>
       {mainProfilesList.map((profile, index) =>
         <Profile name={profile.name}
@@ -30,6 +31,7 @@ function ProfilesList() {
           profileLink={profile.profileLink}
           key={index}/>
       )}
+      </div>
     </React.Fragment>
   );
 }

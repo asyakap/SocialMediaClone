@@ -3,43 +3,46 @@ import React from "react";
 
 function HeaderButton1() {
   return (
-    <button>Home</button>
+    <button class="NavButton">Home</button>
   );
 }
 
 function HeaderButton2() {
   return (
-    <button>Norifications</button>
+    <button class="NavButton">Norifications</button>
   );
 }
 
 function HeaderButton3() {
   return (
-    <button>Messages</button>
+    <button class="NavButton">Messages</button>
   );
 }
 function HeaderButton4() {
   return (
-    <button>Tweet</button>
+    <button class="TweetButton">Tweet</button>
   );
 }
 
 function SearchBar() {
   return (
+    <div class="SearchBar">
     <form>
       <input type="text" placeholder="Search..." />
     </form>
+    </div>
   );
 }
 
 export default function Header() {
   return (
-    <div>
+    <div class="App-header">
       <HeaderButton1 />
       <HeaderButton2 />
       <HeaderButton3 />
       <SearchBar />
       <HeaderButton4 />
     </div>
+
   );
 }

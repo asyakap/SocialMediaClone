@@ -14,15 +14,62 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+padding-left: 20%;
+padding-right: 20%;
+padding-top: 30px;
+padding-bottom: 20px;
+font-size: 30px;
 }
+
+.NavButton {
+  background-color:white;
+  border: solid;
+  border-color: rgb(199, 198, 198);
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  float: left;
+}
+
+.SearchBar {
+  flex-shrink: 1;
+  padding-bottom: 9px;
+  flex-basis: auto;
+  position: relative;
+  flex-grow: 1;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 7px;
+  height: 40px;
+  color: black;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: transparent;
+  box-sizing: border-box;
+  text-align: left;
+  transition-timing-function: linear;
+}
+
+.TweetButton {
+  background-color:white;
+  border-radius: 12px;
+  border: solid;
+  border-color: lightskyblue;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  float: right;
+}
+
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +82,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.box {
+  text-align: left;
+  border: black ridge 1px;
+  border-radius: 10px;
+  margin: 3px;
+  width: 20rem;
+  padding-left: 10px;
 }
