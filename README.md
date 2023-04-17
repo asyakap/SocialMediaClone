@@ -5,7 +5,7 @@ This a copy of a Social Media webpage.
 
 # Component Diagram
 
-![component diagram](SocialMediaClone.drawio)
+![component diagram](diagram.jpg)
 
 ## Available Scripts
 
